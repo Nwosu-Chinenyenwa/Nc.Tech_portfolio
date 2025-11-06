@@ -48,11 +48,11 @@ function ImageView({ src, alt = "", className = "", id= null, hideSpinner = fals
         <div className={`image-view ${className}`}
              id={id}
              style={style}>
-         <img  className="link-img" src="http://localhost:5173/src/assets/images/favicon-BOjLDTG7.webp" alt="" />
+      {/*    <img  className="link-img" src="http://localhost:5173/src/assets/images/favicon-BOjLDTG7.webp" alt="" /> */}
 
-            <ImageViewSpinner visible={spinnerVisible}/>
+  {/*           <ImageViewSpinner visible={spinnerVisible}/>
             <ImageViewError visible={errorVisible}
-                            hideIcon={hideSpinner}/>
+                            hideIcon={hideSpinner}/> */}
         </div>
     )
 }
