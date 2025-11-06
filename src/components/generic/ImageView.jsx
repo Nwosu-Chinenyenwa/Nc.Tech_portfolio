@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react'
 import {useConstants} from "/src/hooks/constants.js"
 import {Spinner} from "react-bootstrap"
 import {useUtils} from "/src/hooks/utils.js"
-import logo from "../../../dist/images/svg/favicon.webp"
+import logo from "../../../dist/assets/favicon-BOjLDTG7.webp"
 
 function ImageView({ src, alt = "", className = "", id= null, hideSpinner = false, style = null, onStatus = null }) {
     const [loadStatus, setLoadStatus] = useState(ImageView.LoadStatus.LOADING)
