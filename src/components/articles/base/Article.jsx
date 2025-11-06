@@ -41,7 +41,7 @@ function Article({ children, id, type, dataWrapper, className = "", selectedItem
 
     return (
         <article className={`article ${type} ${className}`}>
-            {(dataWrapper.locales.title && !forceHideTitle) && (
+         {/*    {(dataWrapper.locales.title && !forceHideTitle) && (
                 <ArticleTitle title={dataWrapper.locales.title}/>
             )}
 
@@ -54,7 +54,7 @@ function Article({ children, id, type, dataWrapper, className = "", selectedItem
                 )}
 
                 {children}
-            </ArticleContent>
+            </ArticleContent> */}
         </article>
     )
 }

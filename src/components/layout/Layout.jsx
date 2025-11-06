@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 import LayoutAnimatedBackground from "/src/components/layout/LayoutAnimatedBackground.jsx"
 import LayoutStaticBackground from "/src/components/layout/LayoutStaticBackground.jsx"
+import Galaxy from "./Galaxy"
 
 function Layout({ id, children, backgroundStyle }) {
     const utils = useUtils()
@@ -11,19 +12,18 @@ function Layout({ id, children, backgroundStyle }) {
     const isStaticBackground = backgroundStyle === "static"
     const isPlainBackground = backgroundStyle === "plain"
 
-    if(!isAnimatedBackground && !isStaticBackground && !isPlainBackground) {
+/*     if(!isAnimatedBackground && !isStaticBackground && !isPlainBackground) {
         utils.log.warn(
             "Layout",
             "Invalid backgroundStyle provided on settings.json. The supported values are 'animated', 'static' and 'plain'. Defaulting to 'plain'."
         )
-    }
+    } */
 
     return (
         <div id={id}
              className={`layout`}>
 
-            {isAnimatedBackground && <LayoutAnimatedBackground/>}
-            {isStaticBackground && <LayoutStaticBackground/>}
+            {isAnimatedBackground && <Galaxy/>}
 
             <div className={`layout-content`}>
                 {children}
@@ -32,4 +32,4 @@ function Layout({ id, children, backgroundStyle }) {
     )
 }
 
-export default Layout
+export default Layout;

@@ -10,8 +10,8 @@ div.image-view {
     pointer-events: none;
 }
 
-img.image-view-img {
-    width: 100%;
+.link-img {
+    width: 200%;
     height: 100%;
 }
 
@@ -33,3 +33,4 @@ div.image-view-error-wrapper {
     color: var(--theme-texts);
     i { opacity: 0.3; }
 }
+

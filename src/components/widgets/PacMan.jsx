@@ -9,16 +9,6 @@ function PacMan({ className = "", color = "pacman-color-variant-loader", hidden 
         <div className={`pacman-wrapper ${className} ${hiddenClass}`}>
             <div className={`pacman ${color}`}>
                 <div className={`pacman-content`}>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
                 </div>
             </div>
         </div>

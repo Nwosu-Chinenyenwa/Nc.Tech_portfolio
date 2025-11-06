@@ -1,5 +1,5 @@
 {
-    "name": "react-portfolio-template-by-ryan-balieiro",
+    "name": "Nc.tech",
     "private": true,
     "version": "2.0.3",
     "type": "module",
@@ -15,12 +15,15 @@
         "@emailjs/browser": "^4.4.1",
         "@fortawesome/fontawesome-free": "^6.6.0",
         "bootstrap": "^5.3.3",
+        "ogl": "^1.0.11",
+        "postprocessing": "^6.37.8",
         "primeicons": "^7.0.0",
         "react": "^18.3.1",
         "react-bootstrap": "^2.10.4",
         "react-dom": "^18.3.1",
         "smooth-scrollbar": "^8.8.4",
-        "swiper": "^11.1.14"
+        "swiper": "^11.1.14",
+        "three": "^0.178.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.9.0",

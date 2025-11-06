@@ -1,5 +1,5 @@
 {
-    "name": "Mark Choi",
+    "name": "Nc.Tech",
 
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
@@ -10,48 +10,52 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
+            "localized_name": "Nc.Tech",
+            "localized_name_stylized": " [[Nc.{{Tech}}]]",
+            "status_message_available_for_freelance": "Open to collab!",
             "roles": [
-                "Backend Developer",
                 "Frontend Developer",
+                "Seo Engineer",
                 "DevOps Engineer",
-                "UX Designer"
+                "React Expert"
             ],
-            "name_pronunciation_ipa": "/mark chwe/",
-            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+            "name_pronunciation_ipa": "/Nwosu Chinenyenwa.Tech/",
+            "name_pronunciation_audio_url": "audio/ttsMP3.com_VoiceText_2025-11-6_13-3-41.mp3"
         },
+
+
         "es": {
-            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "status_message_available_for_freelance": "¡Abierto a colaboraciones!",
             "roles": [
-                "Desarrollador Backend",
-                "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
+            "Desarrollador Frontend",
+            "Ingeniero SEO",
+            "Ingeniero DevOps",
+            "Experto en React"
             ]
         },
+
+
         "fr": {
-            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "status_message_available_for_freelance": "Ouvert aux collaborations !",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
+                "Développeur front-end",
+                "Ingénieur SEO",
                 "Ingénieur DevOps",
-                "Designer UX"
+                "Expert React"
             ]
         },
         "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
-            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+            "localized_name": "엔씨.테크",
+            "localized_name_stylized": "[[엔씨.{{테크}}]]",
+            "status_message_available_for_freelance": "협업에 열려있습니다!",
             "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
+            "프런트엔드 개발자",
+            "SEO 엔지니어",
+            "DevOps 엔지니어",
+                "리액트 전문가"
             ],
-            "name_pronunciation_ipa": "/chwe min-seok/",
-            "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
+            "name_pronunciation_ipa": "/누수 치네넨와테크/",
+            "name_pronunciation_audio_url": "audio/ttsMP3.com_VoiceText_2025-11-6_13-22-52.mp3"
         }
     }
 }

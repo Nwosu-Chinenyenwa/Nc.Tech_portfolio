@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react'
 import {useConstants} from "/src/hooks/constants.js"
 import {Spinner} from "react-bootstrap"
 import {useUtils} from "/src/hooks/utils.js"
+import logo from "../../../dist/images/svg/favicon.webp"
 
 function ImageView({ src, alt = "", className = "", id= null, hideSpinner = false, style = null, onStatus = null }) {
     const [loadStatus, setLoadStatus] = useState(ImageView.LoadStatus.LOADING)
@@ -48,12 +49,7 @@ function ImageView({ src, alt = "", className = "", id= null, hideSpinner = fals
         <div className={`image-view ${className}`}
              id={id}
              style={style}>
-            <ImageViewContainer src={src}
-                                alt={alt}
-                                visible={containerVisible}
-                                loadStatus={loadStatus}
-                                onLoad={_onLoad}
-                                onError={_onError}/>
+         <img  className="link-img" src={logo} alt="" />
 
             <ImageViewSpinner visible={spinnerVisible}/>
             <ImageViewError visible={errorVisible}
