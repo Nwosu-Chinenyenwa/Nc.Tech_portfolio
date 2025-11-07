@@ -35,3 +35,19 @@ div.article-testimonials-item-role {
     margin-top: 2px;
     color: var(--theme-muted);
 }
+
+.testimonalpic{
+    width: 10vw;
+    height: 15vh;
+    border-radius: 100px;
+}
+
+.divtestimonalpic{
+    overflow: hidden;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 500px;
+    height: 100px ;
+}

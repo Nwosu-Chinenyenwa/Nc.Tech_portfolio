@@ -19,10 +19,28 @@
             "faIcon": "fa-solid fa-briefcase"
         },
         {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open"
+        },
+        {
+            "id": "achievements",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/achievements.json",
+            "faIcon": "ri-honour-fill"
+        },
+        {
             "id": "updates",
             "categoryId": "more",
             "jsonPath": "/data/sections/updates.json",
             "faIcon": "ri-wifi-line"
+        },
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/contact.json",
+            "faIcon": "ri-contacts-book-3-fill"
         }
     ]
 }

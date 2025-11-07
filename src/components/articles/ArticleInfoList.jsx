@@ -93,7 +93,7 @@ function ArticleInfoListItem({ itemWrapper}) {
 
     return (
         <div className={`article-info-list-item ${hoverClass}`}>
-            <AvatarView src={itemWrapper.img}
+           <AvatarView src={itemWrapper.img}
                         faIcon={itemWrapper.faIconWithFallback}
                         style={itemWrapper.faIconStyle}
                         alt={itemWrapper.imageAlt}
@@ -116,7 +116,7 @@ function ArticleInfoListItem({ itemWrapper}) {
                                   dangerouslySetInnerHTML={{__html: itemWrapper.locales.label || itemWrapper.label || itemWrapper.locales.title}}/>
                     </Link>
                 )}
-            </div>
+            </div> 
         </div>
     )
 }

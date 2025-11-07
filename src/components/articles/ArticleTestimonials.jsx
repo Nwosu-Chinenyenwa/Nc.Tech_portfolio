@@ -7,6 +7,7 @@ import {useViewport} from "/src/providers/ViewportProvider.jsx"
 import Link from "/src/components/generic/Link.jsx"
 import AvatarView from "/src/components/generic/AvatarView.jsx"
 import {useConstants} from "/src/hooks/constants.js"
+import logo from "../../assets/images/about-texts-image-1.png"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -72,11 +73,13 @@ function ArticleTestimonialsItem({ itemWrapper }) {
             </Balloon>
 
             <div className={`article-testimonials-item-info`}>
-                <AvatarView src={itemWrapper.img}
-                            faIcon={itemWrapper.faIcon}
+
+<div className="divtestimonalpic">
+                <img src={itemWrapper.img}
                             style={itemWrapper.faIconStyle}
                             alt={itemWrapper.imageAlt}
-                            className={`article-testimonials-item-avatar`}/>
+                            className={`article-testimonials-item-avatar testimonalpic`}/>
+</div>
 
                 <Link href={itemWrapper.link?.href}
                       tooltip={itemWrapper.link?.tooltip}

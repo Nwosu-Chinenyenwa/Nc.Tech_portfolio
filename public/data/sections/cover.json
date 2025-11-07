@@ -82,7 +82,7 @@
                     "locales": {
                         
   "en": {
-    "text": "<p>I’m a {{JavaScript/React}} developer with [[several years]] of experience, focusing on building interactive web applications and dynamic dashboards. I also have practical experience with TypeScript, Next.js,Firebase and supabase in production environments.</p><p>This versatile background allows me to handle a wide range of project requirements, whether it's creating responsive user interfaces, fetching and displaying real time data, or implementing full-stack features efficiently.</p><p>I'm excited to collaborate [[with you!]]</p>"
+    "text": "<p>I'm a {{JavaScript/React}} developer with [[several years]] of experience, focusing on building interactive web applications and dynamic dashboards. I also have practical experience with TypeScript, Next.js,Firebase and supabase in production environments.</p><p>This versatile background allows me to handle a wide range of project requirements, whether it's creating responsive user interfaces, fetching and displaying real time data, or implementing full-stack features efficiently.</p><p>I'm excited to collaborate [[with you!]]</p>"
   },
   "es": {
     "text": "<p>Soy un desarrollador de {{JavaScript/React}} con [[varios años]] de experiencia, enfocado en crear aplicaciones web interactivas y paneles de control dinámicos. También tengo experiencia práctica con TypeScript, Next.js,supabase y Firebase en entornos de producción.</p><p>Este historial versátil me permite manejar una amplia gama de requerimientos de proyectos, ya sea creando interfaces de usuario responsivas, mostrando datos en tiempo real, o implementando funciones full-stack de manera eficiente.</p><p>¡Estoy emocionado de colaborar [[contigo!]]</p>"
@@ -117,7 +117,7 @@
                 {
                     "id": 1,
                     "label": "Nwosu C. Emmanuel",
-                    "img": "data/images/pictures/about-texts-image-1.png",
+                     "img": "dist/images/pictures/farmforte.webp",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
@@ -183,153 +183,171 @@
             "items": [
                 {
                     "id": 1,
-                    "faIcon": "fa-solid fa-video",
+                    "faIcon": "ri-computer-fill",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{AI}} video editing",
-                            "text": "Learning to use AI tools to enhance my videos."
+                            "title": "{{Computer}} logic lover",
+                            "text": "Passionate about how systems truly work."
                         },
-                        "es": {
-                            "title": "Edición de video con {{AI}}",
-                            "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
-                        },
-                        "fr": {
-                            "title": "Édition vidéo avec {{IA}}",
-                            "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
-                        },
-                        "ko": {
-                            "title": "{{AI}} 비디오 편집",
-                            "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
-                        }
+                    "es": {
+    "title": "Amante de la lógica {{Computer}}",
+    "text": "Apasionado por cómo funcionan realmente los sistemas."
+},
+
+"fr": {
+    "title": "Amoureux de la logique {{Computer}}",
+    "text": "Passionné par le véritable fonctionnement des systèmes."
+},
+
+"ko": {
+    "title": "{{Computer}} 논리 애호가",
+    "text": "시스템이 실제로 작동하는 방식에 열정적입니다."
+}
+
                     }
                 },
                 {
                     "id": 2,
-                    "faIcon": "fa-solid fa-palette",
+                    "faIcon": "ri-code-ai-fill",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{Arts}} & Illustration",
-                            "text": "Practicing digital art and exploring new styles."
+                            "title": "{{Frontend}} perfectionist",
+                            "text": "Obsessed with clean, responsive UI design."
                         },
-                        "es": {
-                            "title": "{{Arte}} y Ilustración",
-                            "text": "Practicando arte digital y explorando nuevos estilos."
-                        },
-                        "fr": {
-                            "title": "{{Arts}} & Illustration",
-                            "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
-                        },
-                        "ko": {
-                            "title": "{{예술}} 및 일러스트레이션",
-                            "text": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
-                        }
+                    "es": {
+    "title": "Perfeccionista del {{Frontend}}",
+    "text": "Obsesionado con un diseño de interfaz limpio y adaptable."
+},
+
+"fr": {
+    "title": "Perfectionniste du {{Frontend}}",
+    "text": "Obsédé par un design d’interface propre et réactif."
+},
+
+"ko": {
+    "title": "{{Frontend}} 완벽주의자",
+    "text": "깨끗하고 반응적인 UI 디자인에 집착합니다."
+}
+
                     }
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-solid fa-chart-line",
+                    "faIcon": "ri-bug-fill",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{Investing}} & Finance",
-                            "text": "Learning the basics of stocks and personal finance."
+                            "title": "{{Problem}} solver",
+                            "text": "Turns complex bugs into smooth solutions."
                         },
-                        "es": {
-                            "title": "{{Inversión}} y Finanzas",
-                            "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
-                        },
-                        "fr": {
-                            "title": "{{Investissement}} & Finance",
-                            "text": "Apprendre les bases des actions et des finances personnelles."
-                        },
-                        "ko": {
-                            "title": "{{투자}} 및 재정 관리",
-                            "text": "주식과 개인 재정의 기초 배우기."
-                        }
+                      "es": {
+    "title": "Solucionador de {{Problem}}",
+    "text": "Convierte errores complejos en soluciones fluidas."
+},
+
+"fr": {
+    "title": "Résolveur de {{Problem}}",
+    "text": "Transforme les bugs complexes en solutions fluides."
+},
+
+"ko": {
+    "title": "{{Problem}} 해결사",
+    "text": "복잡한 버그를 매끄러운 해결책으로 바꿉니다."
+}
+
                     }
                 },
                 {
                     "id": 4,
-                    "faIcon": "fa-solid fa-window-restore",
+                    "faIcon": "ri-bnb-fill",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{UX}} design",
-                            "text": "Studying user experience principles."
+                            "title": "{{Crypto}} enthusiast",
+                            "text": "Loves merging finance with modern tech."
                         },
-                        "es": {
-                            "title": "Diseño {{UX}}",
-                            "text": "Estudiando los principios de la experiencia del usuario."
-                        },
-                        "fr": {
-                            "title": "Conception {{UX}}",
-                            "text": "Étudier les principes de l'expérience utilisateur."
-                        },
-                        "ko": {
-                            "title": "{{UX}} 디자인",
-                            "text": "사용자 경험 원칙을 공부하기."
-                        }
+                       "es": {
+    "title": "Entusiasta de las {{Crypto}}",
+    "text": "Le encanta fusionar las finanzas con la tecnología moderna."
+},
+
+"fr": {
+    "title": "Passionné de {{Crypto}}",
+    "text": "Aime fusionner la finance avec la technologie moderne."
+},
+
+"ko": {
+    "title": "{{Crypto}} 열성가",
+    "text": "금융과 현대 기술의 융합을 사랑합니다."
+}
+
                     }
                 },
                 {
                     "id": 5,
                     "img": "",
-                    "faIcon": "fa-solid fa-camera-retro",
+                    "faIcon": "ri-stack-line",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "{{Photography}} & Photoshop",
-                            "text": "Enhancing photos through creative editing techniques."
+                            "title": "{{Full-stack}} visionary",
+                            "text": "Builds seamless apps from end to end."
                         },
-                        "es": {
-                            "title": "{{Fotografía}} y Photoshop",
-                            "text": "Mejorando fotos a través de técnicas creativas de edición."
-                        },
-                        "fr": {
-                            "title": "{{Photographie}} & Photoshop",
-                            "text": "Améliorer des photos avec des techniques de montage créatives."
-                        },
-                        "ko": {
-                            "title": "{{사진}} 및 포토샵",
-                            "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
-                        }
+                    "es": {
+    "title": "Visionario de pila completa",
+    "text": "Crea aplicaciones fluidas de principio a fin."
+},
+
+"fr": {
+    "title": "Visionnaire full-stack",
+    "text": "Crée des applications fluides de bout en bout."
+},
+
+"ko": {
+    "title": "풀스택 비전가",
+    "text": "끝에서 끝까지 매끄러운 앱을 구축합니다."
+}
+
                     }
                 },
                 {
                     "id": 6,
-                    "faIcon": "fa-solid fa-drum-steelpan",
+                    "faIcon": "ri-building-fill",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
                     "link": {"href": null, "tooltipString": null},
                     "locales": {
                         "en": {
-                            "title": "Playing {{drums}}",
-                            "text": "Exploring different genres and improving my skills."
+                            "title": "Creative {{builder}}",
+                            "text": "Transforms ideas into powerful digital projects."
                         },
-                        "es": {
-                            "title": "Tocar {{batería}}",
-                            "text": "Explorando diferentes géneros y mejorando mis habilidades."
-                        },
-                        "fr": {
-                            "title": "Jouer de la {{batterie}}",
-                            "text": "Explorer différents genres et améliorer mes compétences."
-                        },
-                        "ko": {
-                            "title": "{{드럼}} 연주",
-                            "text": "다양한 장르를 탐험하고 기술을 향상시키기."
-                        }
+                   "es": {
+    "title": "{{builder}} creativo",
+    "text": "Transforma ideas en poderosos proyectos digitales."
+},
+
+"fr": {
+    "title": "{{builder}} créatif",
+    "text": "Transforme les idées en projets numériques puissants."
+},
+
+"ko": {
+    "title": "창의적인 {{builder}}",
+    "text": "아이디어를 강력한 디지털 프로젝트로 바꿉니다."
+}
+
                     }
                 }
             ]
