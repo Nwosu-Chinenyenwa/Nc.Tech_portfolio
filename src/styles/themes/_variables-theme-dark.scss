@@ -1,6 +1,7 @@
+
 /**
  * @author Ryan Balieiro
- * @description Dark theme colors.
+ * @description Light theme colors.
  *
  * What each color represents:
  * ------------------------------------------
@@ -18,47 +19,51 @@
  * $texts-inverted: The inverted text color. For example, if your text color is white, this should be black.
  *
  * $base-container-bg: The background color for the sidebar and the main section container.
+ * $$base-container-bg-accent: The accent background color. This one is used for inactive elements on the mobile navigation items.
  * $base-popover-bg: The standard background color for popovers, such as the language picker.
  * $base-boards: The standard background color for containers inside the section, such as timeline items, cards, info list items, etc.
  * $base-info-badges: The base color for badges, such as the date badge in the timeline.
  * $empty: The color used for fillable containers, such as the contact form fields or the progress bar background, for example.
- * $empty-accent: The accent color for empty containers. This one is used for inactive elements on the mobile navigation items.
  *
  * $borders: The default border color. For example, the color of the borders around the navigation sidebar items.
+ * $borders-nav-mobile: The border color for the mobile navigation items.
+ * $borders-nav-mobile-accent: The highlighted border color for the mobile navigation items.
  * $scrollbar-track: The background color of the scrollbar track.
  * $scrollbar-thumb: The color of the scrollbar thumb.
  */
 
 @import "theme-variables-builder";
 
-$primary: #9dff8e;
-$secondary: #a4afb5;
-$dark: #161616;
-$danger: #fdd2d2;
-$muted: #6c757d;
+$primary: #269366;
+$secondary: darken(#798287, 10%);
+$dark: #bfe0c5;
+$danger: #932626;
+$muted: #7c8d7f;
 
-$base-bg: #0c0c0c;
-$base-bg-light: #161616;
-$base-bg-dark: #090909;
+$base-bg: #91d7aa;
+$base-bg-light: #a6e3b8;
+$base-bg-dark: #7ecb94;
 
-$texts: #EEEEEE;
-$texts-inverted: #111111;
+$texts: #202521;
+$texts-inverted: #EEE;
 
-$base-container-bg: #181818;
-$base-popover-bg: #0e0e0e;
-$base-boards: lighten($base-container-bg, 3%);
-$base-info-badges: lighten($dark, 3%);
-$empty: darken($base-container-bg, 3%);
-$empty-accent: #131313;
+$base-container-bg: #d9f5e0;
+$base-container-bg-accent: #c2e9d0;
+$base-popover-bg: #cae1d4;
+$base-boards: #d2eed8;
+$base-info-badges: #c3e3cd;
+$empty: #e8f8ef;
 
-$borders: #1D1D1D;
-$scrollbar-track: #101010;
-$scrollbar-thumb: #32343a;
+$borders: #d9efdc;
+$borders-nav-mobile: rgba(white, 0.15);
+$borders-nav-mobile-accent: rgba(white, 0.2);
+$scrollbar-track: #daf5e1;
+$scrollbar-thumb: #55bd91;
 
-:root {
+[data-theme="light"] {
     @include build-theme(
         // Theme Config...
-        /** DARK MODE: **/                  true,
+        /** DARK MODE: **/                  false,
 
         // Base Colors...
         /** PRIMARY: **/                    $primary,
@@ -75,16 +80,16 @@ $scrollbar-thumb: #32343a;
         /** TEXTS (INVERTED): **/           $texts-inverted,
 
         // Nav
-        /** NAV MOBILE BG: **/              $empty-accent,
+        /** NAV MOBILE BG: **/              $base-container-bg-accent,
         /** NAV MOBILE: **/                 $texts,
-        /** NAV MOBILE BORDER: **/          $borders,
+        /** NAV MOBILE BORDER: **/          $borders-nav-mobile-accent,
 
-        /** NAV MOBILE HOVER BG: **/        $empty-accent,
+        /** NAV MOBILE HOVER BG: **/        $base-container-bg-accent,
         /** NAV MOBILE HOVER: **/           $primary,
 
-        /** NAV MOBILE SELECTED BG: **/     $borders,
-        /** NAV MOBILE SELECTED: **/        $primary,
-        /** NAV MOBILE SELECTED BORDER: **/ $primary,
+        /** NAV MOBILE SELECTED BG: **/     $primary,
+        /** NAV MOBILE SELECTED: **/        $texts-inverted,
+        /** NAV MOBILE SELECTED BORDER: **/ $borders-nav-mobile,
 
         // Main Layout Elements...
         /** SECTION BG: **/                 $base-container-bg,
@@ -96,8 +101,8 @@ $scrollbar-thumb: #32343a;
         /** EMPTY **/                       $empty,
 
         // Other Colors...
-        /** DEFAULT BORDERS: **/            $borders,
-        /** SCROLLBAR TRACK: **/            $scrollbar-track,
-        /** SCROLLBAR THUMB: **/            $scrollbar-thumb,
+       $borders,
+        $scrollbar-track,
+        $scrollbar-thumb,
     );
 }
