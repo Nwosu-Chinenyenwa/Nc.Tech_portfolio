@@ -54,7 +54,7 @@
                 {
                     "id": 3,
                     "label": "@Nc.Tech",
-                    "link": {"href": "https://github.com/ryanbalieiro", "tooltipString": "see_on_github"},
+                    "link": {"href": "https://github.com", "tooltipString": "see_on_github"},
                     "faIcon": "fa-brands fa-github"
                 }
             ]
