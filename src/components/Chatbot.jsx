@@ -62,9 +62,9 @@ export default function Chatbot() {
     src={logo}
     alt="logo"
     style={{
-      width: "100%",         // Fill the button
+      width: "100%",        
       height: "100%",
-      objectFit: "cover",    // Maintain aspect ratio
+      objectFit: "cover",    
       borderRadius: "200px",
     }}
   />

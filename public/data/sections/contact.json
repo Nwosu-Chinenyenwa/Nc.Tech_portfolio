@@ -106,13 +106,13 @@
                 },
                 {
                     "id": 3,
-                    "faIcon": "fa-brands fa-linkedin",
+                    "faIcon": "ri-whatsapp-fill",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@Nc.tech",
-                    "link": {"href": "https://linkedin.com", "tooltipString": "open_website"},
+                    "label": "Nc.tech",
+                    "link": {"href": "https://Wa.me/2349061703513", "tooltipString": "open_website"},
                     "locales": {
-                        "en": {"title": "LinkedIn"},
-                        "ko": {"title": "링크드인"}
+                        "en": {"title": "Whatsapp"},
+                        "ko": {"title": "왓츠앱"}
                     }
                 },
                 {
@@ -120,7 +120,7 @@
                     "faIcon": "fa-brands fa-facebook",
                     "faIconColors": { "bg": "", "fill": "" },
                     "label": "Nc.Tech",
-                    "link": {"href": "https://facebook.com", "tooltipString": "open_website"},
+                    "link": {"href": "https://www.facebook.com/profile.php?id=61574116185552", "tooltipString": "open_website"},
                     "locales": {
                         "en": {"title": "Facebook"},
                         "ko": {"title": "페이스북"}

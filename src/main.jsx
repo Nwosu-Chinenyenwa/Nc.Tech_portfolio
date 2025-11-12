@@ -16,7 +16,6 @@ import NavigationProvider from "/src/providers/NavigationProvider.jsx";
 import Portfolio from "/src/components/Portfolio.jsx";
 import Chatbot from "/src/components/Chatbot" 
 
-/** Initialization Script... **/
 let container = null;
 
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -27,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 /**
- * This is the main app component. It wraps the content of the app with AppEssentialsWrapper and AppCapabilitiesWrapper.
+ * 
  * @return {JSX.Element}
  * @constructor
  */
@@ -36,15 +35,13 @@ const App = () => {
     <AppEssentialsWrapper>
       <AppCapabilitiesWrapper>
         <Portfolio />
-        {/* Move chatbot outside main content wrapper if needed */}
       </AppCapabilitiesWrapper>
-      {/* Try placing it here */}
       <Chatbot />
     </AppEssentialsWrapper>
   );
 };
 /**
- * This stack will wrap the entire app - these are considered essential components for the app booting up.
+ * 
  * @param children
  * @return {JSX.Element}
  * @constructor

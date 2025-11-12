@@ -53,9 +53,9 @@
                 },
                 {
                     "id": 3,
-                    "label": "@Nc.Tech",
-                    "link": {"href": "https://github.com", "tooltipString": "see_on_github"},
-                    "faIcon": "fa-brands fa-github"
+                    "label": "+234 9061703513",
+                    "link": {"href": "https://Wa.me/2349061703513", "tooltipString": ""},
+                    "faIcon": "ri-whatsapp-fill"
                 }
             ]
         },
