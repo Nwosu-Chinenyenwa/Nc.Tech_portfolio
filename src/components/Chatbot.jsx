@@ -51,7 +51,7 @@ export default function Chatbot() {
     padding: 0,
     borderRadius: "200px",
     height: "60px",
-    width: "60px",           // Make button square
+    width: "60px",       
     overflow: "hidden",
     display: "flex",
     alignItems: "center",
@@ -78,7 +78,7 @@ export default function Chatbot() {
             position: "fixed",
             bottom: "90px",
             right: "20px",
-            width: "400px",
+            width: "350px",
             height: "500px",
             borderRadius: "10px",
             zIndex: 1000,
