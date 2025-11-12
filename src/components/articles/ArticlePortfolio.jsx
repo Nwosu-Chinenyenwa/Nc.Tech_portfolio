@@ -86,12 +86,6 @@ function ArticlePortfolioItems({ dataWrapper, selectedItemCategoryId }) {
 function ArticlePortfolioItem({ itemWrapper }) {
     return (
         <div className={`article-portfolio-item`}>
-            <AvatarView src={itemWrapper.img}
-                        faIcon={itemWrapper.faIcon}
-                        style={itemWrapper.faIconStyle}
-                        alt={itemWrapper.imageAlt}
-                        className={`article-portfolio-item-avatar`}/>
-
             <ArticlePortfolioItemTitle itemWrapper={itemWrapper}/>
             <ArticlePortfolioItemBody itemWrapper={itemWrapper}/>
             <ArticlePortfolioItemFooter itemWrapper={itemWrapper}/>

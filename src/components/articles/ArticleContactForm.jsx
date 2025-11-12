@@ -20,6 +20,7 @@ import StandardButton from "/src/components/buttons/StandardButton.jsx"
  * @return {JSX.Element}
  * @constructor
  */
+
 function ArticleContactForm({ dataWrapper, id }) {
     const [selectedItemCategoryId, setSelectedItemCategoryId] = useState(null)
     const [shouldHideTitle, setShouldHideTitle] = useState(false)
@@ -61,6 +62,14 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
     const navigation = useNavigation()
     const utils = useUtils()
 
+    // put your EmailJS keys here — these are used by api.handlers.sendEmailRequest
+    dataWrapper.settings = {
+        emailJsServiceId: "service_0yeswci",
+        emailJsTemplateId: "template_519z0hf",
+        emailJsPublicKey: "ksxfLYUawU_orS-sm",
+    };
+
+
     const id = "contact-form"
     const windowStatus = utils.storage.getWindowVariable(id)
 
@@ -68,11 +77,13 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
     const [validationError, setValidationError] = useState(null)
     const [status, setStatus] = useState(windowStatus || ArticleContactForm.Status.WAITING_FOR_SUBMISSION)
 
+    // IMPORTANT: useState for emailDisplay so it updates after submit
+    const [emailDisplay, setEmailDisplay] = useState(utils.storage.getWindowVariable(id + "-email") || null)
+
     const name = fieldsBundle?.name
     const email = fieldsBundle?.email
     const subject = fieldsBundle?.subject
     const message = fieldsBundle?.message
-    const emailDisplay = utils.storage.getWindowVariable(id + "-email")
     const didSubmit = status === ArticleContactForm.Status.SUBMITTED
 
     const errorMessage = validationError ?
@@ -87,16 +98,20 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
                 form?.reset()
                 utils.storage.setWindowVariable(id, null)
                 utils.storage.setWindowVariable(id + "-email", null)
+                setEmailDisplay(null)
                 setShouldHideTitle(false)
                 break
 
             case ArticleContactForm.Status.SUBMITTED:
                 utils.storage.setWindowVariable(id, ArticleContactForm.Status.SUBMITTED)
-                if(email) utils.storage.setWindowVariable(id + "-email", email)
+                if (email) {
+                    utils.storage.setWindowVariable(id + "-email", email)
+                    setEmailDisplay(email)            // <- update state so UI re-renders with email
+                }
                 setShouldHideTitle(true)
                 break
         }
-    }, [status])
+    }, [status]) // eslint-disable-line react-hooks/exhaustive-deps
 
     const _onReset = () => {
         setShouldHideTitle(false)
@@ -173,9 +188,15 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
             )}
 
             {didSubmit && (
-                <ArticleContactFormSuccessMessage dataWrapper={dataWrapper}
-                                                  email={emailDisplay}
-                                                  onReset={_onReset}/>
+                // pass all values directly to success message so it can render them
+                <ArticleContactFormSuccessMessage
+                    dataWrapper={dataWrapper}
+                    name={name}
+                    email={emailDisplay}
+                    subject={subject}
+                    message={message}
+                    onReset={_onReset}
+                />
             )}
 
             {!didSubmit && (
@@ -278,10 +299,11 @@ function ArticleContactFormContentFields({ onInput, didSubmit }) {
  * @return {JSX.Element}
  * @constructor
  */
-function ArticleContactFormSuccessMessage({ dataWrapper, email, onReset }) {
+function ArticleContactFormSuccessMessage({ dataWrapper, name, email, subject, message, onReset }) {
     const language = useLanguage()
 
-    const formattedEmail = `<br>«<span class="me-1"></span>${email}<span class="ms-1"></span>»`
+    // keep previous behavior: footer replacement for email if template uses $email
+    const formattedEmail = `<br>«<span class="me-1"></span>${email || ''}<span class="ms-1"></span>»`
 
     return (
         <MessageCard>
@@ -289,6 +311,14 @@ function ArticleContactFormSuccessMessage({ dataWrapper, email, onReset }) {
 
             <MessageCardBody title={dataWrapper.locales.contactThankYouTitle}
                              text={dataWrapper.locales.contactThankYouBody}/>
+
+            {/* summary block with the submitted values — matches the layout you showed */}
+            <div className="article-contact-form-summary" style={{ padding: "1rem 1.25rem" }}>
+                <p><strong>Name:</strong>{name ? <span className="ms-1">{name}</span> : <span className="ms-1 text-muted"></span>}</p>
+                <p><strong>Email:</strong>{email ? <span className="ms-1">{email}</span> : <span className="ms-1 text-muted"></span>}</p>
+                <p><strong>Services:</strong>{subject ? <span className="ms-1">{subject}</span> : <span className="ms-1 text-muted"></span>}</p>
+                <p><strong>Message:</strong>{message ? <span className="ms-1">{message}</span> : <span className="ms-1 text-muted"></span>}</p>
+            </div>
 
             <MessageCardFooter text={dataWrapper.locales.contactThankYouFooter.replace("$email", formattedEmail)}>
                 <StandardButton className={`article-contact-form-reset-button`}

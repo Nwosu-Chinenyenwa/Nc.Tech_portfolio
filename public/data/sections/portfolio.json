@@ -59,370 +59,289 @@
                 }
             },
             "settings": {
-                "categorize_by": ["category_apps", "category_web", "category_utilities"],
+                "categorize_by": ["category_web"],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
             },
             "items": [
                 {
                     "id": 1,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "categoryId": "category_web",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://github.com", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://npm.com", "tooltipString": "see_on_npm", "faIcon": "fa-brands fa-npm"}
+                            {"href": "https://farmforte.vercel.app", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+
                         ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=PnV8p1xm7-o"
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
+                "en": {
+  "title": "Farmforte",
+  "text": "Farmforte is an <b>agriculture focused platform</b> designed to help farmers and agribusinesses <b>manage crops, track harvests, and monitor farm productivity</b> with interactive insights.",
+  "tags": ["Next.js", "Agriculture", "Farm Management"]
+},
+"es": {
+  "title": "Farmforte",
+  "text": "Farmforte es una <b>plataforma enfocada en la agricultura</b> diseñada para ayudar a los agricultores y empresas agrícolas a <b>gestionar cultivos, seguir las cosechas y supervisar la productividad de la granja</b> con información interactiva.",
+  "tags": ["Next.js", "Agricultura", "Gestión de Granjas"]
+},
+"fr": {
+  "title": "Farmforte",
+  "text": "Farmforte est une <b>plateforme axée sur l'agriculture</b> conçue pour aider les agriculteurs et les entreprises agricoles à <b>gérer les cultures, suivre les récoltes et surveiller la productivité de la ferme</b> grâce à des informations interactives.",
+  "tags": ["Next.js", "Agriculture", "Gestion Agricole"]
+},
+"ko": {
+  "title": "Farmforte",
+  "text": "Farmforte는 <b>농업 중심 플랫폼</b>으로, 농부와 농업 기업이 <b>작물 관리, 수확 추적, 농장 생산성 모니터링</b>을 인터랙티브한 인사이트와 함께 할 수 있도록 설계되었습니다.",
+  "tags": ["Next.js", "농업", "농장 관리"]
+}
+
                     }
                 },
                 {
                     "id": 2,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-7.png",
+                    "categoryId": "category_web",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {"href": "https://nc-tech.vercel.app", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-portrait-1.png",
-                            "images/pictures/screenshot-demo-portrait-2.png",
-                            "images/pictures/screenshot-demo-portrait-3.png",
-                            "images/pictures/screenshot-demo-portrait-4.png",
-                            "images/pictures/screenshot-demo-portrait-5.png",
-                            "images/pictures/screenshot-demo-portrait-6.png"
+
                         ],
-                        "screenshotsAspectRatio": "9:16",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI"
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
+"en": {
+  "title": "Nc.Tech",
+  "text": "Nc.tech is my <b>personal portfolio website</b>, built to showcase my <b>web development projects, skills, and achievements</b>. It features modern UI, responsive design, and interactive components built with <b>React</b>.",
+  "tags": ["React", "Portfolio", "Web Development"]
+},
+"es": {
+  "title": "Nc.Tech",
+  "text": "Nc.tech es mi <b>sitio web personal de portafolio</b>, creado para mostrar mis <b>proyectos de desarrollo web, habilidades y logros</b>. Cuenta con una interfaz moderna, diseño responsivo y componentes interactivos construidos con <b>React</b>.",
+  "tags": ["React", "Portafolio", "Desarrollo Web"]
+},
+"fr": {
+  "title": "Nc.Tech",
+  "text": "Nc.tech est mon <b>site portfolio personnel</b>, conçu pour présenter mes <b>projets de développement web, compétences et réalisations</b>. Il dispose d'une interface moderne, d'un design responsive et de composants interactifs construits avec <b>React</b>.",
+  "tags": ["React", "Portfolio", "Développement Web"]
+},
+"ko": {
+  "title": "Nc.Tech",
+  "text": "Nc.tech는 나의 <b>개인 포트폴리오 웹사이트</b>로, <b>웹 개발 프로젝트, 기술 및 성과</b>를 보여주기 위해 만들어졌습니다. 현대적인 UI, 반응형 디자인, 그리고 <b>React</b>로 구현된 인터랙티브 컴포넌트를 특징으로 합니다.",
+  "tags": ["React", "포트폴리오", "웹 개발"]
+}
+
+
                     }
                 },
                 {
                     "id": 3,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "categoryId": "category_web",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {"href": "https://text-tawny.vercel.app/", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
                         ],
                         "screenshots": [
-                            "images/pictures/screenshot-demo-landscape-1.png",
-                            "images/pictures/screenshot-demo-landscape-2.png",
-                            "images/pictures/screenshot-demo-landscape-3.png",
-                            "images/pictures/screenshot-demo-landscape-4.png",
-                            "images/pictures/screenshot-demo-landscape-5.png"
+
                         ],
-                        "screenshotsAspectRatio": "16:9",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
-                        "en": {
-                            "title": "Light Blue",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
+"en": {
+  "title": "Text",
+  "text": "Text is a <b>web application</b> designed to <b>generate QR codes and create custom short links</b> effortlessly. It provides users with a <b>simple and interactive interface</b>, allowing them to quickly convert URLs into shareable QR codes and manage their links efficiently, built with <b>React</b>.",
+  "tags": ["React", "QR Codes", "Link Shortener"]
+},
+"es": {
+  "title": "Text",
+  "text": "Text es una <b>aplicación web</b> diseñada para <b>generar códigos QR y crear enlaces cortos personalizados</b> de manera sencilla. Proporciona a los usuarios una <b>interfaz simple e interactiva</b>, permitiéndoles convertir URLs en códigos QR compartibles y gestionar sus enlaces de forma eficiente, construida con <b>React</b>.",
+  "tags": ["React", "Códigos QR", "Acortador de Enlaces"]
+},
+"fr": {
+  "title": "Text",
+  "text": "Text est une <b>application web</b> conçue pour <b>générer des codes QR et créer des liens courts personnalisés</b> facilement. Elle offre aux utilisateurs une <b>interface simple et interactive</b>, leur permettant de convertir rapidement des URLs en codes QR partageables et de gérer leurs liens efficacement, développée avec <b>React</b>.",
+  "tags": ["React", "Codes QR", "Raccourcisseur de Liens"]
+},
+"ko": {
+  "title": "Text",
+  "text": "Text는 <b>웹 애플리케이션</b>으로, <b>QR 코드 생성과 맞춤 단축 링크 만들기</b>를 손쉽게 할 수 있습니다. 사용자는 <b>간단하고 인터랙티브한 인터페이스</b>를 통해 URL을 빠르게 공유 가능한 QR 코드로 변환하고 링크를 효율적으로 관리할 수 있으며, <b>React</b>로 구축되었습니다.",
+  "tags": ["React", "QR 코드", "링크 단축기"]
+}
+
+
+
                     }
                 },
                 {
                     "id": 4,
                     "categoryId": "category_web",
-                    "img": "images/pictures/portfolio-project-logo-1.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://cash.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {"href": "https://bubble-rouge-eight.vercel.app/", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
                         ],
                         "screenshots": [
 
                         ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww"
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
+"en": {
+  "title": "Bubble",
+  "text": "Bubble is an <b>airdrop platform</b> that allows users to <b>claim tokens, track rewards, and participate in crypto campaigns</b> easily. It features a <b>secure interface, real-time updates, and interactive dashboards</b>, built with <b>Next.js</b>.",
+  "tags": ["Next.js", "Airdrop", "Cryptocurrency"]
+},
+"es": {
+  "title": "Bubble",
+  "text": "Bubble es una <b>plataforma de airdrops</b> que permite a los usuarios <b>reclamar tokens, seguir recompensas y participar en campañas de criptomonedas</b> fácilmente. Cuenta con una <b>interfaz segura, actualizaciones en tiempo real y paneles interactivos</b>, construida con <b>Next.js</b>.",
+  "tags": ["Next.js", "Airdrop", "Criptomonedas"]
+},
+"fr": {
+  "title": "Bubble",
+  "text": "Bubble est une <b>plateforme d'airdrop</b> permettant aux utilisateurs de <b>réclamer des tokens, suivre les récompenses et participer à des campagnes crypto</b> facilement. Elle dispose d'une <b>interface sécurisée, de mises à jour en temps réel et de tableaux de bord interactifs</b>, développée avec <b>Next.js</b>.",
+  "tags": ["Next.js", "Airdrop", "Cryptomonnaie"]
+},
+"ko": {
+  "title": "Bubble",
+  "text": "Bubble는 사용자가 <b>토큰을 클레임하고, 보상을 추적하며, 암호화폐 캠페인에 참여</b>할 수 있는 <b>에어드롭 플랫폼</b>입니다. <b>보안 인터페이스, 실시간 업데이트, 인터랙티브 대시보드</b>를 제공하며, <b>Next.js</b>로 구축되었습니다.",
+  "tags": ["Next.js", "에어드롭", "암호화폐"]
+}
+
+
+
                     }
                 },
                 {
                     "id": 5,
-                    "categoryId": "category_apps",
-                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "categoryId": "category_web",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"}
+                            {"href": "https://altcoin-price.vercel.app/", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
                         ],
                         "screenshots": [
 
                         ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
+"en": {
+  "title": "Altcoin Price",
+  "text": "Altcoin Price is a <b>cryptocurrency tracking platform</b> that allows users to <b>view real time prices, monitor market trends, and compare different coins</b>. It features <b>interactive charts, currency selection, and user authentication</b>, built with <b>React and Firebase</b>.",
+  "tags": ["React", "Crypto", "Firebase"]
+},
+"es": {
+  "title": "Altcoin Price",
+  "text": "Altcoin Price es una <b>plataforma de seguimiento de criptomonedas</b> que permite a los usuarios <b>ver precios en tiempo real, monitorear tendencias del mercado y comparar diferentes monedas</b>. Cuenta con <b>gráficos interactivos, selección de divisas y autenticación de usuarios</b>, construida con <b>React y Firebase</b>.",
+  "tags": ["React", "Cripto", "Firebase"]
+},
+"fr": {
+  "title": "Altcoin Price",
+  "text": "Altcoin Price est une <b>plateforme de suivi des cryptomonnaies</b> permettant aux utilisateurs de <b>consulter les prix en temps réel, suivre les tendances du marché et comparer différentes cryptos</b>. Elle dispose de <b>graphiques interactifs, sélection de devises et authentification des utilisateurs</b>, développée avec <b>React et Firebase</b>.",
+  "tags": ["React", "Crypto", "Firebase"]
+},
+"ko": {
+  "title": "Altcoin Price",
+  "text": "Altcoin Price는 사용자가 <b>실시간 가격을 확인하고, 시장 동향을 모니터링하며, 다양한 코인을 비교</b>할 수 있는 <b>암호화폐 추적 플랫폼</b>입니다. <b>인터랙티브 차트, 통화 선택, 사용자 인증</b> 기능을 제공하며, <b>React와 Firebase</b>로 구축되었습니다.",
+  "tags": ["React", "암호화폐", "Firebase"]
+}
+
+
+
+
                     }
                 },
                 {
                     "id": 6,
                     "categoryId": "category_web",
-                    "img": "images/pictures/portfolio-project-logo-5.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                            {"href": "https://movie-park-sand.vercel.app/", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
                         ],
                         "screenshots": [
 
                         ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
-                        }
+"en": {
+  "title": "Movie Land",
+  "text": "Movie Land is a <b>movie catalog website</b> where users can <b>browse movies, view details, and discover new titles</b>. While streaming is not available, it features <b>interactive search, category filters, and responsive design</b>, built with <b>React</b>.",
+  "tags": ["React", "Movies", "Catalog"]
+},
+"es": {
+  "title": "Movie Land",
+  "text": "Movie Land es un <b>sitio web de catálogo de películas</b> donde los usuarios pueden <b>explorar películas, ver detalles y descubrir nuevos títulos</b>. Aunque no se puede reproducir contenido, cuenta con <b>búsqueda interactiva, filtros por categoría y diseño responsivo</b>, construido con <b>React</b>.",
+  "tags": ["React", "Películas", "Catálogo"]
+},
+"fr": {
+  "title": "Movie Land",
+  "text": "Movie Land est un <b>site de catalogue de films</b> où les utilisateurs peuvent <b>parcourir les films, consulter les détails et découvrir de nouveaux titres</b>. Le streaming n'est pas disponible, mais il propose <b>recherche interactive, filtres par catégorie et design responsive</b>, développé avec <b>React</b>.",
+  "tags": ["React", "Films", "Catalogue"]
+},
+"ko": {
+  "title": "Movie Land",
+  "text": "Movie Land는 사용자가 <b>영화 목록을 탐색하고, 세부 정보를 확인하며 새 작품을 발견</b>할 수 있는 <b>영화 카탈로그 웹사이트</b>입니다. 스트리밍은 제공되지 않지만 <b>인터랙티브 검색, 카테고리 필터, 반응형 디자인</b> 기능을 제공하며 <b>React</b>로 구축되었습니다.",
+  "tags": ["React", "영화", "카탈로그"]
+}
+
+
+
+
                     }
                 },
                 {
                     "id": 7,
                     "categoryId": "category_web",
-                    "img": "",
-                    "faIcon": "fa-solid fa-guitar",
-                    "faIconColors": {"bg": "#7671AA", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
-                        ],
-                        "screenshots": [
-
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-                {
-                    "id": 8,
-                    "categoryId": "category_utilities",
-                    "img": "images/pictures/portfolio-project-logo-4.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "preview": {
                         "links": [
-
+                            {"href": "https://necgrows.vercel.ap/", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
                         ],
                         "screenshots": [
 
                         ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
+                        "screenshotsAspectRatio": ""
                     },
                     "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-                {
-                    "id": 9,
-                    "categoryId": "category_apps",
-                    "img": "",
-                    "faIcon": "fa-solid fa-truck-fast",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEEEEE"},
-                    "preview": {
-                        "links": [
-                            {"href": "https://apple.com", "tooltipString": "see_on_app_store", "faIcon": "fa-brands fa-apple"},
-                            {"href": "https://google.com", "tooltipString": "see_on_google_play", "faIcon": "fa-brands fa-google-play"},
-                            {"href": "https://windows.com", "tooltipString": "see_on_windows_store", "faIcon": "fa-brands fa-windows"}
-                        ],
-                        "screenshots": [
+"en": {
+  "title": "Necglows",
+  "text": "Necglows is a <b>personal/brand website</b> built to <b>showcase services, projects, and personal achievements</b>. It features a <b>modern responsive design, interactive sections, and a clean UI</b>, built with <b>Next.js</b>.",
+  "tags": ["html, css & js", "Portfolio", "Branding"]
+},
+"es": {
+  "title": "Necglows",
+  "text": "Necglows es un <b>sitio web personal/de marca</b> creado para <b>mostrar servicios, proyectos y logros personales</b>. Cuenta con <b>diseño moderno y responsivo, secciones interactivas y una interfaz limpia</b>, construido con <b>Next.js</b>.",
+  "tags": ["html, css & js", "Portafolio", "Marca"]
+},
+"fr": {
+  "title": "Necglows",
+  "text": "Necglows est un <b>site personnel/de marque</b> conçu pour <b>présenter des services, des projets et des réalisations personnelles</b>. Il propose <b>un design moderne et responsive, des sections interactives et une interface épurée</b>, développé avec <b>Next.js</b>.",
+  "tags": ["html, css & js", "Portfolio", "Branding"]
+},
+"ko": {
+  "title": "Necglows",
+  "text": "Necglows는 <b>개인/브랜드 웹사이트</b>로, <b>서비스, 프로젝트 및 개인 성과</b>를 보여주기 위해 제작되었습니다. <b>현대적이고 반응형 디자인, 인터랙티브 섹션, 깔끔한 UI</b>를 제공하며 <b>Next.js</b>로 구축되었습니다.",
+  "tags": ["html, css & js", "포트폴리오", "브랜딩"]
+}
 
-                        ],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
+
+
+
                     }
                 }
             ]

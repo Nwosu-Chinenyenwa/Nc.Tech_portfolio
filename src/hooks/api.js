@@ -98,7 +98,7 @@ const analytics = {
      * @returns {Promise<void>}
      */
     reportVisit: async() => {
-        await fetch("https://ryanbalieiro.com/api/analytics/mock", {
+      /*   await fetch("https://ryanbalieiro.com/api/analytics/mock", {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -107,6 +107,6 @@ const analytics = {
                     template_id: "react-portfolio"
                 }
             })
-        })
+        }) */
     }
 }
