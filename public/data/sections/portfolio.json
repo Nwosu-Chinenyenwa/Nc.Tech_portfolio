@@ -343,6 +343,49 @@
 
 
                     }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_web",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [
+                            {"href": "https://the-tronicvaultt.vercel.app", "tooltipString": "open_website", "faIcon": "ri-pages-fill"}
+                        ],
+                        "screenshots": [
+
+                        ],
+                        "screenshotsAspectRatio": ""
+                    },
+                    "locales": {
+
+  "en": {
+    "title": "TheTronicvaultt",
+    "text": "TheTronicvaultt is an <b>electronics e-commerce website</b> offering <b>gaming consoles, smartphones, laptops, TVs, and more</b>. We provide <b>competitive prices, fast shipping, and quality products</b>. Note: The website is <b>currently under development</b>, so some features may be <b>coming soon</b>.",
+    "tags": ["Website under development"]
+  },
+  "es": {
+    "title": "TheTronicvaultt",
+    "text": "TheTronicvaultt es un <b>sitio web de comercio electrónico de electrónica</b> que ofrece <b>consolas de juegos, teléfonos inteligentes, laptops, televisores y más</b>. Proporcionamos <b>precios competitivos, envío rápido y productos de calidad</b>. Nota: El sitio web está <b>actualmente en desarrollo</b>, por lo que algunas funciones estarán <b>disponibles pronto</b>.",
+     "tags": ["Sitio web en desarrollo"]
+  },
+  "fr": {
+    "title": "TheTronicvaultt",
+    "text": "TheTronicvaultt est un <b>site e-commerce d'électronique</b> proposant <b>consoles de jeux, smartphones, ordinateurs portables, téléviseurs et plus encore</b>. Nous offrons <b>des prix compétitifs, une livraison rapide et des produits de qualité</b>. Remarque : Le site est <b>actuellement en développement</b>, certaines fonctionnalités seront <b>bientôt disponibles</b>.",
+    "tags": ["Site web en développement"]
+  },
+  "ko": {
+    "title": "TheTronicvaultt",
+    "text": "TheTronicvaultt는 <b>전자제품 전자상거래 웹사이트</b>로 <b>게임 콘솔, 스마트폰, 노트북, TV 등</b>을 제공합니다. <b>경쟁력 있는 가격, 빠른 배송 및 품질 좋은 제품</b>을 제공합니다. 참고: 웹사이트는 <b>현재 개발 중</b>이며 일부 기능은 <b>곧 제공될 예정</b>입니다.",
+  "tags": ["웹사이트 개발 중"]
+  }
+
+
+
+
+
+                    }
                 }
             ]
         }
